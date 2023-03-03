@@ -1,0 +1,13 @@
+
+.App {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #F6F8FC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-link {
+  color: #61dafb;
+}
+

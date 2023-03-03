@@ -1,0 +1,18 @@
+.search {
+    height: 72px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow:0 20px 27px 0 rgba(0,0,0,.03);
+    background-color: white;
+    margin-bottom: 32px;
+}
+
+.search-text {
+    transform-origin: top right;
+    top: 4px;
+    right: 0;
+    left: 16px;
+    font-weight: bold;
+    font-size: 100px;
+    color: cadetblue;
+}

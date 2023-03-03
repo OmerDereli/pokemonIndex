@@ -1,0 +1,53 @@
+.card-place {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 72px;
+    margin-top: 40px;
+
+}
+
+.poke-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 220px;
+    width: 100%;
+    border-radius: 32px;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .03);
+}
+
+.gif {
+    position: relative;
+    animation-delay: 2s;
+    margin-top: -60px;
+    height: 90px;
+    margin-bottom: 36px;
+
+}
+
+.title-pokecards {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 8px;
+
+}
+
+.num-poke {
+    display: flex;
+    align-items: center;
+    color: slategrey;
+    font-weight: bold;
+}
+
+.attribute {
+    width: max-content;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .03);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 12px 12px;
+}

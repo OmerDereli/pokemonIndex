@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 76px;
+    width: 80%;
+    border-radius: 16px;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .03);
+    margin-top: 48px;
+    margin-bottom: 32px;
+    padding: 24px 0;
+}
+
+.title-container {
+    flex: 1;
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.title {
+    font-weight: 600;
+    color: slategrey;
+    font-size: 18px;
+}
+
