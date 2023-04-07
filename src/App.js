@@ -27,7 +27,7 @@ function App() {
         <div style={{ width: "65%", marginRight: 16 }}>
           <SearchPokemon />
           <BasicSelect />
-          <PokeCards />
+          {/*<PokeCards />*/}
           <PokemonList />
         </div>
         <div style={{ width: "35%", marginLeft: 16 }}>
